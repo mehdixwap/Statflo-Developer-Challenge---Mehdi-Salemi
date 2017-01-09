@@ -1,0 +1,11 @@
+<html>
+   <body>
+        <h1> Username: {{ results["username"] }} </h1>
+        <h2> Pattern to match : {{ results["pattern"] }} </h2>
+        <h2> Files with Pattern : </h2>
+        {% for match in range(results["matches"]|count) %}
+            {{ results["matches"][match]|tojson|safe }}
+            <br>
+        {% endfor %}
+   </body>
+</html>
