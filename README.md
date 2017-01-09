@@ -1,3 +1,12 @@
+# Mehdi Salemi 
+A few notes before reading through my sollution. I added a start page which takes in an put of username and pattern to match. I was not super familiar with flask and went through documentation to figure out how to navigate and start the application. Sorry if my sollution isn't in proper format for Flask. Also, not sure if the test cases you provifed will work as in the test file, as I slightly changed the way to app functions. 
+
+Both cases do work though, if you type the user and pattern to match in the start page of application. 
+
+Thanks,
+
+Mehdi
+
 # gistapi
 Gistapi is a simple HTTP API server implemented in Flask for searching a user's public Github Gists. The gistapi code in this repository has 
 been left incomplete for you to finish.
